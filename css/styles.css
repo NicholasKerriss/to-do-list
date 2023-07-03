@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #6a1a59, #3e1648);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  font-family: "Agdasima", sans-serif;
+  color: white;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 5px;
+  font-family: "Agdasima", sans-serif;
+}
+
+.title .input {
+  padding: 4px 14px;
+  border-radius: 4px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  font-family: "Agdasima", sans-serif;
+  font-size: 18px;
+}
+
+button {
+  font-size: 24px;
+  border-radius: 4px;
+  padding: 2px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.02, 1.02);
+  background: rgba(13, 128, 0, 0.831);
+  font-weight: bold;
+  color: white;
+  border: transparent;
+}
+
+li {
+  margin-right: 10px;
+  color: azure;
+}
+
+.add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  font-family: "Agdasima", sans-serif;
+  font-size: 24px;
+}
+
+.verify-button {
+  font-size: 16px;
+  padding: 4px;
+  margin-left: 20px;
+}
+
+.delete-button {
+  font-size: 16px;
+  padding: 4px;
+  margin-left: 8px;
+}
+
+.delete-button:hover {
+  background: rgba(255, 0, 0, 0.844);
+}
+
+.button-spacing {
+  margin-top: 10px;
+  gap: 6px;
+}
+
+.border {
+  border: 2px solid black;
+  padding: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.reset {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.label {
+  font-size: 26px;
+  font-family: "Agdasima", sans-serif;
+  color: white;
+}
+
+.reset-btn {
+  border: none;
+  transition: 0.2s;
+}
+
+.reset-btn:hover {
+  background: none;
+  transform: scale(1.1, 1.1);
+}
